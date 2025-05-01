@@ -83,7 +83,7 @@ int main() {
     printf("Super Poder: %.2f\n", superPoder2);
 
     // Comparações
-    printf("\n----- COMPARAÇÃO DE CARTAS -----\n");
+    printf("\n\n----- COMPARAÇÃO DE CARTAS -----\n");
 
     int resultado;
 
@@ -106,7 +106,7 @@ int main() {
     printf("PIB per Capita: Carta %d venceu (%d)\n", resultado + 1, resultado);
 
     resultado = superPoder1 < superPoder2;
-    printf("Super Poder: Carta %d venceu (%d)\n", resultado + 1, resultado);
+    printf("Super Poder: Carta %d venceu (%d)\n\n\n", resultado + 1, resultado);
 
     return 0;
 }
