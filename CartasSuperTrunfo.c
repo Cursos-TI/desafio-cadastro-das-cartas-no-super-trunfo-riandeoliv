@@ -32,7 +32,7 @@ int main() {
     scanf("%d", &populacao1);
     printf("Área (km²): ");
     scanf("%f", &area1);
-    printf("PIB (bilhões de reais): ");
+    printf("PIB: ");
     scanf("%f", &pib1);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos1);
@@ -48,7 +48,7 @@ int main() {
     scanf("%d", &populacao2);
     printf("Área (km²): ");
     scanf("%f", &area2);
-    printf("PIB (bilhões de reais): ");
+    printf("PIB: ");
     scanf("%f", &pib2);
     printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontos2);
@@ -64,7 +64,7 @@ int main() {
     printf("Nome da Cidade: %s\n", nome1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f km²\n", area1);
-    printf("PIB: %.2f bilhões de reais \n", pib1);
+    printf("PIB: %.2f\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontos1);
     
     printf("\nCarta 2:\n");
@@ -73,7 +73,7 @@ int main() {
     printf("Nome da Cidade: %s\n", nome2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
-    printf("PIB: %.2f bilhões de reais \n", pib2);
+    printf("PIB: %.2f\n", pib2);
     printf("Número de Pontos Turísticos: %d\n\n\n", pontos2);
     
     return 0;
